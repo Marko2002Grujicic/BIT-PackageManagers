@@ -5,7 +5,7 @@ const {lorem} = require('./loremLogic')
 
 let arr = [];
 while(arr.length < 4){
-  var randomnumber = Math.ceil(Math.random()*100)
+  let randomnumber = Math.ceil(Math.random()*100)
   if(arr.indexOf(randomnumber) === -1){arr.push(randomnumber)}  
 }
 
